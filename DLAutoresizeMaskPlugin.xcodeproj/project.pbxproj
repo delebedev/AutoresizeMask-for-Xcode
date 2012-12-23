@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1BBDCB1687770300505A33 /* DLSpringsStrutsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1BBDCA1687770300505A33 /* DLSpringsStrutsView.m */; };
+		1D3CE1CE1687746000B27C5B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3CE1CD1687746000B27C5B /* QuartzCore.framework */; };
+		1D8289F416876D5D00EE4BBA /* DLMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8289F316876D5D00EE4BBA /* DLMaskView.m */; };
+		1D8289F616876DC900EE4BBA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D97E6631687685100468E02 /* AppKit.framework */; };
+		1D97E6611687685100468E02 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D97E6601687685100468E02 /* Cocoa.framework */; };
+		1D97E66B1687685100468E02 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D97E6691687685100468E02 /* InfoPlist.strings */; };
+		1D97E6771687695800468E02 /* DLMaskHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D97E6761687695800468E02 /* DLMaskHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D1BBDC91687770300505A33 /* DLSpringsStrutsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLSpringsStrutsView.h; sourceTree = "<group>"; };
+		1D1BBDCA1687770300505A33 /* DLSpringsStrutsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLSpringsStrutsView.m; sourceTree = "<group>"; };
+		1D3CE1CD1687746000B27C5B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1D711A201687838F000FC786 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		1D8289F216876D5D00EE4BBA /* DLMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMaskView.h; sourceTree = "<group>"; };
+		1D8289F316876D5D00EE4BBA /* DLMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMaskView.m; sourceTree = "<group>"; };
+		1D97E65D1687685100468E02 /* DLAutoresizeMaskPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLAutoresizeMaskPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D97E6601687685100468E02 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1D97E6631687685100468E02 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1D97E6641687685100468E02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1D97E6651687685100468E02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D97E6681687685100468E02 /* DLAutoresizeMaskPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLAutoresizeMaskPlugin-Info.plist"; sourceTree = "<group>"; };
+		1D97E66A1687685100468E02 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D97E66C1687685100468E02 /* DLAutoresizeMaskPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DLAutoresizeMaskPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		1D97E6751687695800468E02 /* DLMaskHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLMaskHelper.h; sourceTree = "<group>"; };
+		1D97E6761687695800468E02 /* DLMaskHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLMaskHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D97E65A1687685100468E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3CE1CE1687746000B27C5B /* QuartzCore.framework in Frameworks */,
+				1D8289F616876DC900EE4BBA /* AppKit.framework in Frameworks */,
+				1D97E6611687685100468E02 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D97E6521687685100468E02 = {
+			isa = PBXGroup;
+			children = (
+				1D97E6661687685100468E02 /* ViewAutoresize */,
+				1D97E65F1687685100468E02 /* Frameworks */,
+				1D97E65E1687685100468E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D97E65E1687685100468E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D97E65D1687685100468E02 /* DLAutoresizeMaskPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D97E65F1687685100468E02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D3CE1CD1687746000B27C5B /* QuartzCore.framework */,
+				1D97E6601687685100468E02 /* Cocoa.framework */,
+				1D97E6621687685100468E02 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D97E6621687685100468E02 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D97E6631687685100468E02 /* AppKit.framework */,
+				1D97E6641687685100468E02 /* CoreData.framework */,
+				1D97E6651687685100468E02 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1D97E6661687685100468E02 /* ViewAutoresize */ = {
+			isa = PBXGroup;
+			children = (
+				1D8289F216876D5D00EE4BBA /* DLMaskView.h */,
+				1D8289F316876D5D00EE4BBA /* DLMaskView.m */,
+				1D1BBDC91687770300505A33 /* DLSpringsStrutsView.h */,
+				1D1BBDCA1687770300505A33 /* DLSpringsStrutsView.m */,
+				1D97E6751687695800468E02 /* DLMaskHelper.h */,
+				1D97E6761687695800468E02 /* DLMaskHelper.m */,
+				1D711A201687838F000FC786 /* types.h */,
+				1D97E6671687685100468E02 /* Supporting Files */,
+			);
+			path = ViewAutoresize;
+			sourceTree = "<group>";
+		};
+		1D97E6671687685100468E02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D97E6681687685100468E02 /* DLAutoresizeMaskPlugin-Info.plist */,
+				1D97E6691687685100468E02 /* InfoPlist.strings */,
+				1D97E66C1687685100468E02 /* DLAutoresizeMaskPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D97E65C1687685100468E02 /* DLAutoresizeMaskPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D97E66F1687685100468E02 /* Build configuration list for PBXNativeTarget "DLAutoresizeMaskPlugin" */;
+			buildPhases = (
+				1D97E6591687685100468E02 /* Sources */,
+				1D97E65A1687685100468E02 /* Frameworks */,
+				1D97E65B1687685100468E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLAutoresizeMaskPlugin;
+			productName = ViewAutoresize;
+			productReference = 1D97E65D1687685100468E02 /* DLAutoresizeMaskPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D97E6541687685100468E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Denis Lebedev";
+			};
+			buildConfigurationList = 1D97E6571687685100468E02 /* Build configuration list for PBXProject "DLAutoresizeMaskPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D97E6521687685100468E02;
+			productRefGroup = 1D97E65E1687685100468E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D97E65C1687685100468E02 /* DLAutoresizeMaskPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D97E65B1687685100468E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D97E66B1687685100468E02 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D97E6591687685100468E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D97E6771687695800468E02 /* DLMaskHelper.m in Sources */,
+				1D8289F416876D5D00EE4BBA /* DLMaskView.m in Sources */,
+				1D1BBDCB1687770300505A33 /* DLSpringsStrutsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D97E6691687685100468E02 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D97E66A1687685100468E02 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D97E66D1687685100468E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D97E66E1687685100468E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D97E6701687685100468E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewAutoresize/DLAutoresizeMaskPlugin-Prefix.pch";
+				INFOPLIST_FILE = "ViewAutoresize/DLAutoresizeMaskPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = DLAutoresizeMaskPlugin;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		1D97E6711687685100468E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ViewAutoresize/DLAutoresizeMaskPlugin-Prefix.pch";
+				INFOPLIST_FILE = "ViewAutoresize/DLAutoresizeMaskPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = DLAutoresizeMaskPlugin;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D97E6571687685100468E02 /* Build configuration list for PBXProject "DLAutoresizeMaskPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D97E66D1687685100468E02 /* Debug */,
+				1D97E66E1687685100468E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D97E66F1687685100468E02 /* Build configuration list for PBXNativeTarget "DLAutoresizeMaskPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D97E6701687685100468E02 /* Debug */,
+				1D97E6711687685100468E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D97E6541687685100468E02 /* Project object */;
+}
