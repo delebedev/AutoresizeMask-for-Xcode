@@ -37,7 +37,7 @@ static NSString *const kDLShowSizingsPreferencesKey = @"kDLShowSizingsPreference
 	return self;
 }
 
-- (void) applicationDidFinishLaunching: (NSNotification*) notification {
+- (void)applicationDidFinishLaunching:(NSNotification*)notification {
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(selectionDidChange:)
                                                  name:NSTextViewDidChangeSelectionNotification
@@ -154,21 +154,21 @@ static NSString *const kDLShowSizingsPreferencesKey = @"kDLShowSizingsPreference
 
 - (DLMaskView *)maskView {
     if (!_maskView) {
-        self.maskView = [[DLMaskView alloc] initWithFrame:NSZeroRect];
+        self.maskView = [[[DLMaskView alloc] initWithFrame:NSZeroRect] autorelease];
     }
     return _maskView;
 }
 
 - (DLSpringsStrutsView *)sizingView {
     if (!_sizingView) {
-        self.sizingView = [[DLSpringsStrutsView alloc] initWithFrame:NSZeroRect];
+        self.sizingView = [[[DLSpringsStrutsView alloc] initWithFrame:NSZeroRect] autorelease];
     }
     return _sizingView;
 }
 
-- (void)dealloc
-{   [_sizingView release];
-    [_maskView release];
+- (void)dealloc {
+    self.sizingView = nil;
+    self.maskView = nil;
     [super dealloc];
 }
 @end
