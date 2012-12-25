@@ -2,6 +2,7 @@
 
 Simple xCode plugin to visualize view autoresizing if it's set from code
 
+![Settings Window](https://raw.github.com/garnett/AutoresizeMask-for-Xcode/master/example.png)
 
 ## Installation
 
