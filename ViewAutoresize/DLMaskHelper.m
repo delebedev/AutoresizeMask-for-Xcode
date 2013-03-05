@@ -73,7 +73,7 @@ static NSString *const kDLShowSizingsPreferencesKey = @"kDLShowSizingsPreference
 			NSRange lineRange = [text lineRangeForRange:selectedRange];
 			NSString *line = [text substringWithRange:lineRange];
 
-            NSRange colorRange = [line rangeOfString:@"autoresizingMask"];
+            NSRange colorRange = [line rangeOfString:@"autoresizingmask" options:NSCaseInsensitiveSearch];
             if (colorRange.location != NSNotFound) {
                 NSRange selectedColorRange = NSMakeRange(colorRange.location + lineRange.location, colorRange.length);
                 NSRect selectionRectOnScreen = [textView firstRectForCharacterRange:selectedColorRange];
