@@ -13,7 +13,7 @@ const CGFloat lineCrop = 3.f;
 
 @implementation DLSpringsStrutsView
 
-- (void) setMask:(UIViewAutoresizing)mask {
+- (void)setMask:(UIViewAutoresizing)mask {
     if (mask != _mask) {
         _mask = mask;
         [self setNeedsDisplay:YES];
@@ -23,11 +23,12 @@ const CGFloat lineCrop = 3.f;
 - (void)drawRect:(NSRect)dirtyRect {
     CGContextRef context = (CGContextRef) [[NSGraphicsContext currentContext] graphicsPort];
     CGContextSetShouldAntialias(context, false);
-    CGContextSetRGBFillColor(context, 1.f,1.f,1.f,1.0);
+	CGContextSetFillColorWithColor(context, [NSColor lightGrayColor].CGColor);
     CGContextFillRect(context, NSRectToCGRect(dirtyRect));
     
     CGContextSetStrokeColorWithColor(context, [NSColor darkGrayColor].CGColor);
-    CGContextStrokeRect(context,CGRectInset(dirtyRect, offset, offset));
+	CGContextStrokeRect(context, dirtyRect);
+    CGContextStrokeRect(context, CGRectInset(dirtyRect, offset, offset));
     
     CGContextSetStrokeColorWithColor(context, [NSColor redColor].CGColor);
     
